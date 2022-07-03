@@ -5,6 +5,7 @@
 }
 
 body {
+  background-image: url(hacker-img.jpg);
   background-color: lightgray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,9 +18,11 @@ body {
 }
 
 .titulo {
+  color: white;
   padding: 15px;
   width: 30vw;
   margin: auto;
+  text-align: center;
 
 }
 
