@@ -42,6 +42,7 @@ function CopiaMensagemCriptografada(){
 function mostraMensagemCriptografada(event){
     event.preventDefault();
     caixaDeSaida.value=descriptografa(caixaDeEntrada.value);
+    return true;
 }
 
 function criptografa(mensagem){
